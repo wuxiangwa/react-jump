@@ -1,0 +1,6 @@
+.back-to-top {
+  z-index: 10;
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+  cursor: pointer; }
