@@ -15,7 +15,10 @@
     "react",
     "bulma",
     "jump",
-    "component"
+    "component",
+    "back-to-top",
+    "react-jump",
+    "react-jump-component"
   ],
   "author": "wuxiangwa",
   "license": "ISC",
