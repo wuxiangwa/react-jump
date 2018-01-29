@@ -17,7 +17,7 @@ const App => () =>
   <div>
       // 跳回顶部
       <BackToTop
-      options={object}
+      options={{offset: 50}}
       className='cars'
       showHeight={400}
       >
