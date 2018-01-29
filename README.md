@@ -16,7 +16,13 @@ import { BackToTop, Jump } from 'react-jump';
 const App => () =>
   <div>
       // 跳回顶部
-      <BackToTop options={object} className='cars'><button>UP</button></BackToTop>
+      <BackToTop
+      options={object}
+      className='cars'
+      showHeight={400}
+      >
+        <button>UP</button>
+      </BackToTop>
       // 跳到你想去的地方
       <Jump target={'.cars'}><span style={{color: 'red'}}>i want to go cars</span></Jump>
   </div>
