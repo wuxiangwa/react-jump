@@ -1,6 +1,6 @@
 {
   "name": "react-jump",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "Jump component is based on jump.js for React",
   "main": "lib/index.js",
   "scripts": {

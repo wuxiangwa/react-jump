@@ -13,14 +13,14 @@ export default class BackToTop extends Component {
 
   componentWillMount() {
     this.handleScroll()
-    window.addEventListener('scroll', this.handleScroll.bind(this))
+    window.addEventListener('scroll', this.handleScroll)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll.bind(this))
+    window.removeEventListener('scroll', this.handleScroll)
   }
 
-  handleScroll () {
+  handleScroll = () => {
     const {showHeight} = this.props
     this.setState({
       isShow: getScroll(window, true) > showHeight
