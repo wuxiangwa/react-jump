@@ -15,7 +15,7 @@ import { BackToTop, Jump } from 'react-jump';
 
 const App => () =>
   <div>
-      // 跳回顶部
+      // back to top 跳回顶部
       <BackToTop
       options={{offset: 50}}
       className='cars'
@@ -23,7 +23,7 @@ const App => () =>
       >
         <button>UP</button>
       </BackToTop>
-      // 跳到你想去的地方
+      // Jump to where you want to go on this page 跳到你想去的地方
       <Jump target={'.cars'}><span style={{color: 'red'}}>i want to go cars</span></Jump>
   </div>
 
